@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "name": "گوشی شیائومی m11",
+        "price": 15100000,
+        "previousPrice":17350000,
+        "path":"images/1.jpg",
+        "count":1,
+        "category":"digital",
+        "color":"white"
+    },
+    {
+        "id": 2,
+        "name": "اپل واچ مدل m32",
+        "price": 14000000,
+        "previousPrice":15200000,
+        "path":"images/2.jpg",
+        "count":1,
+        "category":"watch",
+        "color":"black"
+
+    },   
+    {
+        "id": 3,
+        "name": " ریش تراش دایاک",
+        "price": 5500000,
+        "previousPrice":6350000,
+        "path":"images/3.jpg" ,
+        "count":1,
+        "category":"personal",
+        "color":"grey"
+        
+    },
+    {
+        "id": 4,
+        "name": " تلویزیون 40 اینچ",
+        "price": 35000000,
+        "previousPrice":37350000,
+        "path":"images/4.jpg",
+        "count":1,
+        "category":"digital",
+        "color":"black"
+
+    },
+    {
+        "id": 5,
+        "name": "کاپشن زمستانه",
+        "price": 1500000,
+        "previousPrice":1730000,
+        "path":"images/5.jpg",
+        "count":1,
+        "category":"clothes",
+        "color":"black"
+
+    },
+    {
+        "id": 6,
+        "name": "هندزفری بلوتوثی شیائومی",
+        "price": 2510000,
+        "previousPrice":3350000,
+        "path":"images/6.jpg",
+        "count":1,
+        "category":"digital",
+        "color":"black"
+
+    },
+    {
+        "id": 7,
+        "name": "گوشی Honor H3",
+        "price": 25300000,
+        "previousPrice":27350000,
+        "path":"images/8.jpg",
+        "count":1,
+        "category":"digital",
+        "color":"white"
+
+    },
+    {
+        "id": 8,
+        "name": "لپ تاپ ایسوس",
+        "price": 35700000,
+        "previousPrice":38350000,
+        "path":"images/7.jpg",
+        "count":1,
+        "category":"digital",
+        "color":"black"
+
+    },
+    {
+        "id": 9,
+        "name": "کش مخصوص تقویت مچ دست",
+        "price": 300000,
+        "previousPrice":350000,
+        "path":"images/9.jpg",
+        "count":1,
+        "category":"clothes",
+        "color":"black"
+
+    },
+    {
+        "id": 10,
+        "name": " پاک کننده لوازم دیجیتال ",
+        "price": 150000,
+        "previousPrice":175000,
+        "path":"images/10.jpg",
+        "count":1,
+        "category":"personal",
+        "color":"grey"
+
+    },
+    {
+        "id": 11,
+        "name": "پک لوازم سفر ",
+        "price": 1500000,
+        "previousPrice":1735000,
+        "path":"images/11.jpg",
+        "count":1,
+        "category":"personal",
+        "color":"white"
+
+    },
+    {
+        "id": 12,
+        "name": "بسته 3 عددی روان نویس",
+        "price": 130000,
+        "previousPrice":150000,
+        "path":"images/12.jpg",
+        "count":1,
+        "category":"personal",
+        "color":"black"
+
+    },
+    {
+        "id": 13,
+        "name": "کیسه خواب",
+        "price": 3510000,
+        "previousPrice":3735000,
+        "path":"images/13.jpg",
+        "count":1,
+        "category":"clothes",
+        "color":"grey"
+    },
+    {
+        "id": 14,
+        "name": "صاف کننده کمر و گردن",
+        "price": 15100000,
+        "previousPrice":17350000,
+        "path":"images/14.jpg",
+        "count":1,
+        "category":"personal",
+        "color":"white"
+    },
+    {
+        "id": 15,
+        "name": "کش مخصوص تقویت مچ دست",
+        "price": 220000,
+        "previousPrice":250000,
+        "path":"images/15.jpg",
+        "count":1,
+        "category":"personal",
+        "color":"black"
+
+    },
+    {
+        "id": 16,
+        "name": " سرخ کن",
+        "price": 10500000,
+        "previousPrice":11350000,
+        "path":"images/16.jpg",
+        "count":1,
+        "category":"digital",
+        "color":"black"
+
+    },
+    {
+        "id": 17,
+        "name": "ساعت زنانه",
+        "price": 3510000,
+        "previousPrice":3735000,
+        "path":"images/17.jpg",
+        "count":1,
+        "category":"watch",
+        "color":"white"
+
+    },
+    {
+        "id": 18,
+        "name": "کفش چرم تبریز",
+        "price": 15100000,
+        "previousPrice":17350000,
+        "path":"images/18.jpg",
+        "count":1,
+        "category":"clothes",
+        "color":"black"
+
+    }
+
+]

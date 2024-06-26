@@ -1,0 +1,49 @@
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: var(--white);
+    width: 38rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+}
+.login .app_logo{
+    width: 18rem;
+    display: block;
+    margin: auto;
+}
+.login.app-logo img{
+    width: 100%;
+    display: block;
+}
+.login input{
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: var(--primary-fonts-md);
+}
+.login label{
+    font-size: 1.4rem;
+}
+.login input[type='submit']{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.login p{
+    font-size: 1.2rem;
+    text-align: right;
+}
+.login p span{
+    color: var(--main-color);
+}
