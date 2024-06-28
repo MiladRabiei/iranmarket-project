@@ -52,7 +52,7 @@ tr td div input{
     padding: 1rem 0;
     margin: 1rem auto;
 }
-tr td a,a:visited{
+tr td a:visited{
     color:var(--main-color);
 }
 

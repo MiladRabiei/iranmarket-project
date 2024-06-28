@@ -103,7 +103,66 @@ let sswiper = new Swiper(".mySwiper", {
     }
     });
 
+//shop basket mini menu & register login mini menu
 
+let shopBasket=JSON.parse(localStorage.getItem('basket')) || []  
+let productCountBox=$.querySelector('.productCount')
+let productCount=$.querySelector('.productCount p')
+let shopMiniMenu=$.querySelector('.desktop_nav__button.basket .shop-miniMenu')
 
+let showBasketMiniMenu=(shopBasket)=>{
+    if(shopBasket.length>0){
+        productCountBox.style.display='block'
+        productCount.innerHTML=shopBasket.length
+        
+    }else{
+        productCountBox.style.display='none'
+        shopMiniMenu.style.display = 'none';
+    }
+    $.querySelector('.desktop_nav__button.basket').addEventListener('mouseover', () => {
+        if (shopBasket.length > 0) {
+            shopMiniMenu.style.display = 'block';
+        }else{
+            shopMiniMenu.style.display = 'none';
+        }
+    });
+    $.querySelector('.desktop_nav__button.basket').addEventListener('mouseout', () => {
+        shopMiniMenu.style.display = 'none';
+    });
+    addItemsToMinimenu(shopBasket)
+}
 
+let addItemsToMinimenu=(shopBasket)=>{
+    shopMiniMenu.innerHTML=''
+    shopBasket.forEach(item=>{
+        shopMiniMenu.insertAdjacentHTML('beforeend',`
+        <div class="shop-miniMenu__item">
+        <div class="shop-miniMenu__item-information">
+            <img src="${item.path}" alt="">
+            <div class="miniMenu-caption">
+                <p>${item.name} 
+                </p>
+                <p class="miniMenu-price">قیمت:${item.price}</p>
+            </div>
+        </div>
+        <div class="miniMenu-removeItem" onclick="removeItemMinimenu(${item.id})">
+            <p>x</p>
+        </div>
+    </div>
+        
+        `)
+    })
+}
+
+window.removeItemMinimenu=(id)=>{
+    shopBasket=shopBasket.filter(item=>{
+        return item.id!==id
+    })
+    localStorage.setItem('basket',JSON.stringify(shopBasket))
+    console.log(shopBasket);
+    showBasketMiniMenu(shopBasket)
+}
+showBasketMiniMenu(shopBasket)
+
+export {showBasketMiniMenu}
 

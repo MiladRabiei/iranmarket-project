@@ -430,9 +430,32 @@ a.suggestion_box__link {
 .desktop_nav__button.basket{
     position: relative;
 }
+.desktop_nav__button{
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all .3s ease-in-out;
+}
+.desktop_nav__button:hover{
+    background-color: var(--main-color);
+}
 .desktop_nav__button.basket:hover .shop-miniMenu{
-    display: block;
+    display: none;
     animation: slideup .3s ease-in;
+}
+.productCount{
+    position: absolute;
+    top: 0;
+    color: var(--main-color);
+    background-color: #f8adad;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    display: none;
+}
+.productCount p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--section-title-color);
 }
 .shop-miniMenu{
     background-color: var(--white);
@@ -466,6 +489,9 @@ a.suggestion_box__link {
     display: flex;
     align-items: center;
 }
+.miniMenu-caption{
+    margin: .2rem;
+}
 .miniMenu-price{
     font-size: 1.2rem;
 }
@@ -486,6 +512,60 @@ a.suggestion_box__link {
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 2rem;
+}
+
+
+.desktop_nav__button.register{
+    position: relative;
+}
+.register-miniMenu{
+    background-color: var(--white);
+    border-radius: 0 0 1rem 1rem;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    padding: 1rem;
+    display: none;
+    animation: slidedown .3s ease-in;
+    z-index: 100;
+    width: 25rem;
+    font-size: 1.4rem;
+}
+
+.desktop_nav__button.register:hover .register-miniMenu{
+    display: block;
+    animation: slideup .3s ease-in;
+}
+.register-miniMenu img{
+    width: 3rem;
+}
+.register-miniMenu__hr{
+    background-color:var(--main-color) ;
+    width: 100%;
+    height: .3rem;
+    display: block;
+    border: none;
+    border-radius: 1rem;
+}
+.client-Name{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+.client-Name:hover{
+    background-color: #fad0d0;
+    border-radius: 1rem;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    gap :1rem;
+    padding: 1rem;
+}
+.logout:hover{
+    background-color: #fad0d0;
+    border-radius: 1rem;
 }
 .desktop{
     display: flex;
