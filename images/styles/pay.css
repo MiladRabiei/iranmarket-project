@@ -1,0 +1,83 @@
+.pay-content{
+    background-color: var(--white);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+table{
+    padding: 1rem;
+    margin: auto;
+    border-radius: 2rem;
+    width: 100%;
+}
+thead{
+    display: none;
+}
+tbody{
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    display: block;
+}
+tbody tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    transition: all .5s ease-in-out;
+}
+tbody tr:hover{
+    background-color: var(--bg);
+}
+tr:last-of-type{
+    border-bottom: none;
+}
+td{
+    margin: 1rem auto;
+}
+tr td img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    
+}
+tr td div input{
+    width: 9rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 1rem 0;
+    margin: 1rem auto;
+}
+tr td a:visited{
+    color:var(--main-color);
+}
+
+.final-price{
+    width: 100%;
+    margin-top: 2rem;
+}
+.price-box{
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.final-price a button{
+    border: none;
+    width: 17rem;
+    margin: 1rem auto;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--main-color);
+    padding: 1rem;
+    display: block;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    font-family: var(--secondary-font);
+}
