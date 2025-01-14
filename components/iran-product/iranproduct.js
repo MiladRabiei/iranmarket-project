@@ -48,7 +48,7 @@ class IranProduct extends HTMLElement {
         if (this.data[id]) {
             let product = this.data[id];
             let productLink=this.shadowRoot.querySelector('.product-box')
-            productLink.href = `https://miladrabiei.github.io/iranmarket-project/products.html#/?id=${product.id}`;
+            productLink.href = `https://miladrabiei.github.io/iranmarket-project/main-product.html?id=${product.id}`;
             this.shadowRoot.querySelector('.mySwiper-slide__banner img').src = product.path;
             this.shadowRoot.querySelector('.mySwiper-slide__caption p').innerHTML = product.name;
             this.shadowRoot.querySelector('.mySwiper-slide__price--new').innerHTML = product.previousPrice;
